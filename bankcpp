@@ -106,7 +106,7 @@ int  BankingSystem::ret()
 
 void BankingSystem::account_info()
 {
-		cout<<"HELLO "<<name<<" YOUR ACCOUNT NUMBER "<<account_number<<" HAS BALANCE->"<<balance<<endl;
+		cout<<"WELCOME "<<name<<" YOUR ACCOUNT NUMBER "<<account_number<<" HAS BALANCE->"<<balance<<endl;
 }
 
 /**************************************************/
@@ -115,7 +115,7 @@ void BankingSystem::account_info()
 
 void BankingSystem::withdraw()
 {
-			cout<<"HELLO "<<name<<" HAS BALANCE-> "<<balance<<endl<<" ENTER THE AMOUNT TO BE WITHDRAWN"<<endl;
+			cout<<"WELCOME"<<name<<" HAS BALANCE-> "<<balance<<endl<<" ENTER THE AMOUNT TO BE WITHDRAWN"<<endl;
 			do{	
 				cin>>amount;
 				if(balance<amount)
